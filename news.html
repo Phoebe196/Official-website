@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>企业官网</title>
+	<link rel="stylesheet" href="css/news.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+	<!-- 网页顶部 -->
+	<div class="top">
+		<div class="top_content">
+			<ul>
+				<li><i class="fa fa-caret-right"></i><a href="#" title="">联系我们</a></li>
+				<li><i class="fa fa-caret-right"></i><a href="#" title="" onclick="AddFavorite(window.location,document.title)">加入收藏</a></li>
+				<li><i class="fa fa-caret-right"></i><a href="#" title="" onclick="setHome(window.location)">设为首页</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 主要内容区 -->
+	<div class="wrapper">
+		<!-- logo图片区 -->
+		<div class="logo">
+			<div class="logo_left">
+				<img src="images/logo.jpg" alt="慕课网">
+			</div>
+			<div class="logo_right">
+				<img src="images/tel.jpg" alt="服务热线">
+				24小时服务热线：<span>123-456-7890</span>
+			</div>
+		</div>
+		<!-- 导航栏区 -->
+		<div class="nav clearfix">
+			<div class="nav_left">
+				<ul>
+					<li><a href="index.html" title="">首页</a></li>
+					<li><a href="news.html" title="">关于慕课</a></li>
+					<li><a href="news.html" title="">新闻动态</a></li>
+					<li><a href="news.html" title="">课程中心</a></li>
+					<li><a href="news.html" title="">在线课程</a></li>
+					<li><a href="news.html" title="">人才招聘</a></li>
+				</ul>
+			</div>
+			<div class="nav_right">		
+				<form class="searchBox" action="" method="post">
+					<input type="text" name="search">
+				</form>
+			</div>
+		</div>
+		<!-- 焦点图 -->
+		<div class="pic">			
+			<img src="images/ad.jpg" alt="">		
+		</div>
+		<!-- 信息展示区 -->
+		<div class="info_show">
+			<div class="info_left">
+				<h2>新闻中心</h2>
+				<ul class="left_nav">
+					<li><i class="fa fa-caret-right"></i><a href="#" title="" >公司新闻</a></li>
+					<li><i class="fa fa-caret-right"></i><a href="#" title="" >行业新闻</a></li>
+					<li><i class="fa fa-caret-right"></i><a href="#" title="" >媒体报道</a></li>
+					<li><i class="fa fa-caret-right"></i><a href="#" title="" >活动专题</a></li>
+					<li><i class="fa fa-caret-right"></i><a href="#" title="" >精彩视频</a></li>
+					<li><i class="fa fa-caret-right"></i><a href="#" title="" >资源下载</a></li>
+					<li><i class="fa fa-caret-right"></i><a href="#" title="" >公司内刊</a></li>
+				</ul>
+			</div>
+			<div class="info_right">
+				<div class="title clearfix">
+					<h2>新闻中心</h2>
+					<a href="#" title="" class="more">More&gt;&gt;</a>
+				</div>
+				<div class="news_list clearfix">
+					<ul>
+						<li><a href="details.html" title="">【慕课网获App】 Store强力推荐 荣登四榜单</a><span>2014-06-01</span></li>
+						<li><a href="details.html" title="">【有奖活动】给父亲的三行书信</a><span>2014-06-01</span></li>
+						<li><a href="details.html" title="">《程序猿，请晒出你的童年》活动获奖公告</a><span>2014-05-30</span></li>
+						<li><a href="details.html" title="">【慕课访谈】破茧成蝶——美女程序员的蜕变史</a><span>2014-05-28</span></li>
+						<li><a href="details.html" title="">【慕客访谈 用户篇】“有为屌丝”在路上</a><span>2014-06-01</span></li>
+						<li><a href="details.html" title="">【有奖活动】给父亲的三行书信</a><span>2014-06-01</span></li>
+						<li><a href="details.html" title="">《程序猿，请晒出你的童年》活动获奖公告</a><span>2014-05-30</span></li>
+						<li><a href="details.html" title="">【慕课访谈】破茧成蝶——美女程序员的蜕变史</a><span>2014-05-28</span></li>
+						<li><a href="details.html" title="">【慕客访谈 用户篇】“有为屌丝”在路上</a><span>2014-06-01</span></li>
+						<li><a href="details.html" title="">【有奖活动】给父亲的三行书信</a><span>2014-06-01</span></li>
+						<li><a href="details.html" title="">《程序猿，请晒出你的童年》活动获奖公告</a><span>2014-05-30</span></li>
+						<li><a href="details.html" title="">【慕课访谈】破茧成蝶——美女程序员的蜕变史</a><span>2014-05-28</span></li>
+					</ul>
+				</div>
+				<div class="page"> <a href="#">首页</a><a href="#">&lt;</a><a href="#" class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">…</a><a href="#">&gt;</a><a href="#">末页</a> </div>
+			</div>
+		</div>
+	</div>
+	<!-- footer部分 -->
+	<footer class="clearfix">
+		<ul class="wrapper clearfix footer_block">
+			<li>
+				<h2>关于</h2>
+				<ul class="footer_list">
+					<li><a href="#" title="">品牌故事</a></li>
+					<li><a href="#" title="">联系我们</a></li>
+					<li><a href="#" title="">加入我们</a></li>
+					<li><a href="#" title="">版权声明</a></li>
+				</ul>
+			</li>
+			<li>
+				<h2>课程</h2>
+				<ul class="footer_list">
+					<li><a href="#" title="">PHP开发</a></li>
+					<li><a href="#" title="">前端开发</a></li>
+					<li><a href="#" title="">JAVA开发</a></li>
+					<li><a href="#" title="">Android开发</a></li>
+				</ul>
+			</li>
+			<li>
+				<h2>关注</h2>
+				<ul class="footer_list">
+					<li><a href="#" title="">新浪微博</a></li>
+					<li><a href="#" title="">腾讯微博</a></li>
+					<li><a href="#" title="">企业微信</a></li>
+					<li><a href="#" title="">QQ空间</a></li>
+				</ul>
+			</li>
+			<li>
+				<h2>留言</h2>
+				<ul class="footer_list">
+					<li><a href="#" title="">意见反馈</a></li>
+					<li><a href="#" title="">问题留言</a></li>
+					<li><a href="#" title="">媒体联络</a></li>
+					<li><a href="#" title="">在线客服</a></li>
+				</ul>
+			</li>
+			<li>
+
+				<h2 class="weixin">微信关注</h2>
+				<img src="images/qrcode.jpg" alt="">
+			</li>
+		</ul>
+	</footer>
+	<script src="js/setHome.js"></script>
+
+</body>
+</html>

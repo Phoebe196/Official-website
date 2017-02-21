@@ -1,0 +1,29 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font-size:12px;}
+img{border:none;}
+li{
+	list-style: none;
+}
+input,select,textarea{outline:none;border: none;background:none;}/*background:none 针对IE6而言*/
+textarea{resize:none;}
+a{text-decoration:none;
+	color: #656565;}
+
+/*清浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+.fl{float: left;}
+.fr{float: right;}
+.topBar{
+	height:31px;
+	background-color: #F7F7F7;
+	line-height: 31px;
+}
+.collection{
+	background: url(../img/collection.jpg) left center no-repeat;
+	padding-left: 19px;
+	font-weight: bold;
+}
+.topBar a:hover{
+	color:red;
+}
